@@ -123,7 +123,7 @@ enableEmoji = true
   subtitle_ar = "مواقع متخصصة للعيادات، المعامل، المتاجر، والمواقع الشخصية. جاهزة خلال 48 ساعة."
   cta_primary_en = "Start Your Project"
   cta_primary_ar = "ابدأ مشروعك"
-  cta_secondary_en = "View Templates"
+  cta_secondary_en = "View portfolio"
   cta_secondary_ar = "شاهد النماذج"
   image = "/assets/hero-image.jpg"
 
@@ -167,7 +167,7 @@ enableEmoji = true
     suffix = "+"
     
   [[params.home.stats.items]]
-    number = "100"
+    number = "100%"
     label_en = "Patient Satisfaction"
     label_ar = "رضا المرضى"
     icon = "😊"
