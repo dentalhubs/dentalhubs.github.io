@@ -603,3 +603,16 @@ enableEmoji = true
   completion_time = "43 hours"
   client_location_en = "Kuwait City, Kuwait"
   client_location_ar = "مدينة الكويت، الكويت"
+
+  #portfolio
+  [[params.projects]]
+  id = "Dr-Michael-Nabil-1"
+  niche = "portfolio"
+  title_en = "Bright Smile Clinic - Jeddah"
+  title_ar = "عيادة الابتسامة المشرقة - جدة"
+  description_en = "Family-friendly dental clinic with pediatric specialization. Mobile-optimized booking system."
+  description_ar = "عيادة أسنان عائلية متخصصة في طب أسنان الأطفال. نظام حجز محسّن للموبايل."
+  image = "https://github.com/user-attachments/assets/a2ced92f-7d41-495c-95e9-9acb4ef136fd"
+  completion_time = "38 hours"
+  client_location_en = "Jeddah, Saudi Arabia"
+  client_location_ar = "جدة، المملكة العربية السعودية"
