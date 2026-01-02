@@ -1,0 +1,605 @@
+# ============================================
+# SITE CONFIGURATION - DentalHubs
+# ============================================
+baseURL = "https://dentalhubs.github.io/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "DentalHubs"
+hasCJKLanguage = false
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = true
+
+# Sitemap Configuration
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# ============================================
+# LANGUAGE SETTINGS
+# ============================================
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "DentalHubs"
+    
+    [languages.en.params]
+      description = "Specialized Web Solutions for Dental Professionals. Clinics, Labs, Stores, and Portfolios."
+    
+  [languages.ar]
+    languageName = "العربية"
+    weight = 2
+    languageDirection = "rtl"
+    title = "دينتال هبز | حلول ويب طبية"
+    
+    [languages.ar.params]
+      description = "حلول برمجية متخصصة لقطاع طب الأسنان. عيادات، معامل، متاجر، ومواقع شخصية للأطباء."
+
+# ============================================
+# AUTHOR & SOCIAL
+# ============================================
+[params]
+  author = "DentalHubs Team"
+  job_title_en = "Dental Web Specialists"
+  job_title_ar = "متخصصون في الويب الطبي"
+  avatar = "/assets/avatar.jpg"
+  
+  [params.social]
+    linkedin = "https://www.linkedin.com/in/michael-nabil-dev/"
+    github = "https://github.com/yourusername"
+    twitter = "https://twitter.com/yourhandle"
+
+# ============================================
+# STYLE SYSTEM - Blue Premium (KEPT AS IS)
+# ============================================
+[params.style]
+  # Light Mode Colors
+  bg_primary_light = "#FFFFFF"
+  bg_secondary_light = "#F8FAFC"
+  bg_surface_light = "#F1F5F9"
+  text_primary_light = "#0F172A"
+  text_secondary_light = "#475569"
+  text_muted_light = "#94A3B8"
+  border_light = "#E2E8F0"
+  
+  # Dark Mode Colors
+  bg_primary_dark = "#020617"
+  bg_secondary_dark = "#0F172A"
+  bg_surface_dark = "#1E293B"
+  text_primary_dark = "#F8FAFC"
+  text_secondary_dark = "#CBD5E1"
+  text_muted_dark = "#64748B"
+  border_dark = "#334155"
+  
+  # Brand Colors
+  brand_primary = "#3B82F6"
+  brand_secondary = "#60A5FA"
+  brand_accent = "#2563EB"
+  brand_dark = "#1E40AF"
+  
+  # Status Colors
+  success = "#10B981"
+  warning = "#F59E0B"
+  error = "#EF4444"
+  
+  # Fonts
+  font_primary = "'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif"
+  font_arabic = "'Cairo', 'Tajawal', sans-serif"
+  font_mono = "'Courier New', monospace"
+
+# ============================================
+# SEO & TRACKING
+# ============================================
+[params.seo]
+  description = "Specialized website builder for Dentists. Clinics, Labs, Stores, and Courses. 48-hour delivery, SSL security."
+  keywords = "Dental website, dentist portfolio, dental lab website, dental store, dental marketing, clinic booking system"
+  google_analytics_id = ""
+  google_search_console_verify = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw" # DO NOT CHANGE
+  facebook_pixel_id = ""
+  og_image = "/assets/og-image.jpg"
+  twitter_handle = "@yourhandle"
+  favicon = "https://github.com/user-attachments/assets/4d36e4d2-e6e4-446c-8fb9-4390d0738a36"
+  favicon_apple = "https://github.com/user-attachments/assets/4d36e4d2-e6e4-446c-8fb9-4390d0738a36"
+
+# ============================================
+# CONTACT INFORMATION
+# ============================================
+[params.contact]
+  whatsapp = "+201271476215"
+  phone = "+201271476215"
+  email = "michaelnabilofficial1@gmail.com"
+  location_en = "Egypt"
+  location_ar = "مصر"
+
+# ============================================
+# HOMEPAGE - HERO SECTION
+# ============================================
+[params.home.hero]
+  title_en = "Digital Excellence for Dental Professionals"
+  title_ar = "التميز الرقمي لأطباء الأسنان"
+  subtitle_en = "Specialized websites for Clinics, Labs, Stores, and Personal Portfolios. Ready in 48 Hours."
+  subtitle_ar = "مواقع متخصصة للعيادات، المعامل، المتاجر، والمواقع الشخصية. جاهزة خلال 48 ساعة."
+  cta_primary_en = "Start Your Project"
+  cta_primary_ar = "ابدأ مشروعك"
+  cta_secondary_en = "View Templates"
+  cta_secondary_ar = "شاهد النماذج"
+  image = "/assets/hero-image.jpg"
+
+  [[params.home.hero.features]]
+    icon = "⚡"
+    title_en = "48-Hour Delivery"
+    title_ar = "تسليم خلال 48 ساعة"
+    desc_en = "Your dental site ready fast"
+    desc_ar = "موقعك الطبي جاهز بسرعة"
+    
+  [[params.home.hero.features]]
+    icon = "🔒"
+    title_en = "HIPAA/GDPR Ready"
+    title_ar = "أمان وخصوصية"
+    desc_en = "Secure patient data"
+    desc_ar = "حماية بيانات المرضى"
+    
+  [[params.home.hero.features]]
+    icon = "🦷"
+    title_en = "Dental Specialized"
+    title_ar = "تخصص دقيق"
+    desc_en = "Features made for dentists"
+    desc_ar = "مزايا صممت للأطباء"
+    
+  [[params.home.hero.features]]
+    icon = "📱"
+    title_en = "Mobile Booking"
+    title_ar = "حجز من الموبايل"
+    desc_en = "Seamless patient experience"
+    desc_ar = "تجربة مريض سلسة"
+
+# ============================================
+# STATISTICS SECTION
+# ============================================
+[params.home.stats]
+  [[params.home.stats.items]]
+    number = "50"
+    label_en = "Clinics Launched"
+    label_ar = "عيادة تم إطلاقها"
+    icon = "🏥"
+    suffix = "+"
+    
+  [[params.home.stats.items]]
+    number = "100"
+    label_en = "Patient Satisfaction"
+    label_ar = "رضا المرضى"
+    icon = "😊"
+    suffix = "%"
+    
+  [[params.home.stats.items]]
+    number = "10"
+    label_en = "Countries Served"
+    label_ar = "دولة نخدمها"
+    icon = "🌍"
+    suffix = "+"
+    
+  [[params.home.stats.items]]
+    number = "24"
+    label_en = "Support Hours"
+    label_ar = "ساعات الدعم"
+    icon = "🔧"
+    suffix = "/7"
+
+# ============================================
+# FEATURES SECTION
+# ============================================
+[params.home.features]
+  title_en = "Why Dentists Choose Us"
+  title_ar = "لماذا يختارنا أطباء الأسنان"
+  subtitle_en = "We understand the dental business needs"
+  subtitle_ar = "نحن نفهم احتياجات العمل في مجال طب الأسنان"
+  
+  [[params.home.features.items]]
+    icon = "📅"
+    title_en = "Smart Booking"
+    title_ar = "حجز ذكي"
+    description_en = "Avoid conflicts and manage patient appointments easily"
+    description_ar = "تجنب التعارضات وأدر مواعيد المرضى بسهولة"
+    
+  [[params.home.features.items]]
+    icon = "📸"
+    title_en = "Case Galleries"
+    title_ar = "معرض الحالات"
+    description_en = "Before & After sliders to showcase your work"
+    description_ar = "سلايدر قبل وبعد لعرض نتائجك المبهرة"
+    
+  [[params.home.features.items]]
+    icon = "🌐"
+    title_en = "Multi-Language"
+    title_ar = "متعدد اللغات"
+    description_en = "Full Arabic & English support for diverse patients"
+    description_ar = "دعم كامل للعربية والإنجليزية لخدمة جميع المرضى"
+    
+  [[params.home.features.items]]
+    icon = "🎓"
+    title_en = "Education First"
+    title_ar = "التعليم أولاً"
+    description_en = "Modules for courses and patient education"
+    description_ar = "وحدات خاصة للكورسات وتعليم المرضى"
+
+  [[params.home.features.items]]
+    icon = "🛒"
+    title_en = "E-Commerce Ready"
+    title_ar = "تجارة إلكترونية"
+    description_en = "Sell dental supplies or courses directly"
+    description_ar = "بع مستلزمات الأسنان أو الكورسات مباشرة"
+
+  [[params.home.features.items]]
+    icon = "🔍"
+    title_en = "Local SEO"
+    title_ar = "SEO محلي"
+    description_en = "Rank high when patients search 'dentist near me'"
+    description_ar = "اظهر في النتائج الأولى عند بحث المرضى عن 'طبيب أسنان'"
+
+# ============================================
+# PROCESS SECTION
+# ============================================
+[params.home.process]
+  title_en = "Get Your Site in 3 Steps"
+  title_ar = "احصل على موقعك في 3 خطوات"
+  subtitle_en = "Designed for busy dentists"
+  subtitle_ar = "مصمم خصيصاً للأطباء المشغولين"
+  
+  [[params.home.process.steps]]
+    number = "01"
+    title_en = "Choose Your Niche"
+    title_ar = "اختر تخصصك"
+    description_en = "Select from Clinic, Lab, Store, or Portfolio"
+    description_ar = "اختر بين عيادة، معمل، متجر، أو موقع شخصي"
+    
+  [[params.home.process.steps]]
+    number = "02"
+    title_en = "Send Content"
+    title_ar = "أرسل المحتوى"
+    description_en = "Send us your photos, logo, and text"
+    description_ar = "أرسل لنا صورك، اللوجو، والنصوص"
+    
+  [[params.home.process.steps]]
+    number = "03"
+    title_en = "Launch"
+    title_ar = "الإطلاق"
+    description_en = "We deliver your fully functional site in 48h"
+    description_ar = "نسلمك موقعك جاهزاً للعمل خلال 48 ساعة"
+
+# ============================================
+# SPECIALIZED NICHES (THE 7 CARDS)
+# ============================================
+
+# 1. Dental Clinics
+[[params.niches]]
+  id = "dental-clinics"
+  name_en = "Dental Clinics"
+  name_ar = "عيادات ومراكز الأسنان"
+  icon = "🏥"
+  description_en = "Complete websites with booking systems and doctor profiles"
+  description_ar = "مواقع متكاملة مع نظام حجز وصفحات للأطباء"
+  image = "/assets/niches/dental-preview.jpg"
+  projects_count = 10
+  page_url_en = "/en/niches/dental-clinics/"
+  page_url_ar = "/ar/niches/dental-clinics/"
+  
+  seo_title_en = "Dental Clinic Websites | Booking System"
+  seo_title_ar = "تصميم مواقع عيادات الأسنان | نظام حجز"
+  seo_description_en = "Professional dental clinic websites. Increase patient bookings."
+  seo_description_ar = "مواقع عيادات أسنان احترافية. زد عدد حجوزات المرضى."
+  seo_keywords_en = "dental clinic, dentist website, booking"
+  seo_keywords_ar = "عيادة أسنان, موقع طبيب, حجز مواعيد"
+
+  [[params.niches.features]]
+    title_en = "Online Booking"
+    title_ar = "حجز أونلاين"
+    icon = "📅"
+    description_en = "Real-time appointments"
+    description_ar = "مواعيد فورية"
+
+# 2. Portfolio
+[[params.niches]]
+  id = "portfolio"
+  name_en = "Dentist Portfolio"
+  name_ar = "بورتفوليو الأطباء"
+  icon = "👨‍⚕️"
+  description_en = "Personal brand websites to showcase cases and CV"
+  description_ar = "مواقع شخصية لعرض الحالات والسيرة الذاتية"
+  image = "/assets/niches/portfolio-preview.jpg"
+  projects_count = 5
+  page_url_en = "/en/niches/portfolio/"
+  page_url_ar = "/ar/niches/portfolio/"
+  
+  seo_title_en = "Dentist Portfolio Design | Personal Brand"
+  seo_title_ar = "تصميم بورتفوليو طبيب أسنان | هوية شخصية"
+  seo_description_en = "Showcase your best dental cases and resume."
+  seo_description_ar = "اعرض أفضل حالاتك وسيرتك المهنية."
+  seo_keywords_en = "dentist cv, dental portfolio, cases"
+  seo_keywords_ar = "سيرة ذاتية طبيب, بورتفوليو أسنان"
+
+  [[params.niches.features]]
+    title_en = "Case Gallery"
+    title_ar = "معرض الحالات"
+    icon = "📸"
+    description_en = "High quality images"
+    description_ar = "صور عالية الجودة"
+
+# 3. Dental Labs
+[[params.niches]]
+  id = "dental-labs"
+  name_en = "Dental Labs"
+  name_ar = "معامل الأسنان"
+  icon = "🦷"
+  description_en = "B2B platforms for labs to receive orders from clinics"
+  description_ar = "منصات للمعامل لاستقبال الطلبات من العيادات"
+  image = "/assets/niches/lab-preview.jpg"
+  projects_count = 4
+  page_url_en = "/en/niches/dental-labs/"
+  page_url_ar = "/ar/niches/dental-labs/"
+  
+  seo_title_en = "Dental Lab Website | Order System"
+  seo_title_ar = "موقع معمل أسنان | نظام طلبات"
+  seo_description_en = "Receive digital orders and manage lab workflow."
+  seo_description_ar = "استقبل طلبات رقمية وأدر سير العمل بالمعمل."
+  seo_keywords_en = "dental lab, lab orders, digital dentistry"
+  seo_keywords_ar = "معمل أسنان, طلبات تركيبات, ديجيتال لاب"
+
+  [[params.niches.features]]
+    title_en = "Order Forms"
+    title_ar = "نماذج الطلب"
+    icon = "📝"
+    description_en = "Easy prescription upload"
+    description_ar = "رفع مقاسات سهل"
+
+# 4. Dental Stores
+[[params.niches]]
+  id = "dental-stores"
+  name_en = "Dental Stores"
+  name_ar = "متاجر مستلزمات الأسنان"
+  icon = "🛒"
+  description_en = "E-commerce solutions for dental equipment and supplies"
+  description_ar = "متاجر إلكترونية لبيع معدات ومستلزمات الأسنان"
+  image = "/assets/niches/store-preview.jpg"
+  projects_count = 6
+  page_url_en = "/en/niches/dental-stores/"
+  page_url_ar = "/ar/niches/dental-stores/"
+  
+  seo_title_en = "Dental Supply Store | E-commerce"
+  seo_title_ar = "متجر مستلزمات أسنان | بيع أونلاين"
+  seo_description_en = "Sell dental instruments and materials online."
+  seo_description_ar = "بع أدوات وخامات الأسنان أونلاين."
+  seo_keywords_en = "dental store, equipment, supplies"
+  seo_keywords_ar = "متجر أسنان, معدات, خامات"
+
+  [[params.niches.features]]
+    title_en = "Product Catalog"
+    title_ar = "كتالوج المنتجات"
+    icon = "📦"
+    description_en = "Organized inventory"
+    description_ar = "مخزون منظم"
+
+# 5. Landing Page
+[[params.niches]]
+  id = "landing-page"
+  name_en = "Landing Page"
+  name_ar = "صفحات الهبوط"
+  icon = "🚀"
+  description_en = "High-conversion pages for specific offers (Implants, Braces)"
+  description_ar = "صفحات لترويج عروض محددة (زراعة، تقويم)"
+  image = "/assets/niches/landing-preview.jpg"
+  projects_count = 8
+  page_url_en = "/en/niches/landing-page/"
+  page_url_ar = "/ar/niches/landing-page/"
+  
+  seo_title_en = "Dental Landing Page | Ads"
+  seo_title_ar = "صفحة هبوط عيادة | إعلانات"
+  seo_description_en = "Convert ad clicks into patients."
+  seo_description_ar = "حول نقرات الإعلانات إلى مرضى."
+  seo_keywords_en = "landing page, dental ads, offer"
+  seo_keywords_ar = "صفحة هبوط, إعلانات أسنان, عرض"
+
+  [[params.niches.features]]
+    title_en = "High Conversion"
+    title_ar = "معدل تحويل عالي"
+    icon = "📈"
+    description_en = "Optimized for ads"
+    description_ar = "محسنة للإعلانات"
+
+# 6. Courses / Workshops
+[[params.niches]]
+  id = "courses"
+  name_en = "Courses & Workshops"
+  name_ar = "الكورسات وورش العمل"
+  icon = "🎓"
+  description_en = "Educational platforms for dental courses registration"
+  description_ar = "منصات تعليمية لتسجيل كورسات طب الأسنان"
+  image = "/assets/niches/course-preview.jpg"
+  projects_count = 3
+  page_url_en = "/en/niches/courses/"
+  page_url_ar = "/ar/niches/courses/"
+  
+  seo_title_en = "Dental Courses Website | Education"
+  seo_title_ar = "موقع كورسات أسنان | تعليم"
+  seo_description_en = "Promote your workshops and register students."
+  seo_description_ar = "سوق لورشك العملية وسجل الطلاب."
+  seo_keywords_en = "dental courses, cde, workshops"
+  seo_keywords_ar = "كورسات أسنان, ورش عمل, تعليم مستمر"
+
+  [[params.niches.features]]
+    title_en = "Student Registration"
+    title_ar = "تسجيل الطلاب"
+    icon = "✍️"
+    description_en = "Easy sign-up"
+    description_ar = "تسجيل سهل"
+
+# 7. Dentist Specialty
+[[params.niches]]
+  id = "specialty"
+  name_en = "Specialties"
+  name_ar = "التخصصات الدقيقة"
+  icon = "✨"
+  description_en = "Niche sites for Ortho, Pedo, Surgery, etc."
+  description_ar = "مواقع متخصصة للتقويم، الأطفال، الجراحة، إلخ"
+  image = "/assets/niches/specialty-preview.jpg"
+  projects_count = 7
+  page_url_en = "/en/niches/specialty/"
+  page_url_ar = "/ar/niches/specialty/"
+  
+  seo_title_en = "Specialist Dentist Website"
+  seo_title_ar = "موقع طبيب متخصص"
+  seo_description_en = "For Orthodontists, Surgeons, and Pediatric dentists."
+  seo_description_ar = "لأطباء التقويم، الجراحة، وأسنان الأطفال."
+  seo_keywords_en = "orthodontist, oral surgeon, pediatric dentist"
+  seo_keywords_ar = "طبيب تقويم, جراح وجه وفكين, أسنان أطفال"
+
+  [[params.niches.features]]
+    title_en = "Expert Content"
+    title_ar = "محتوى متخصص"
+    icon = "📚"
+    description_en = "Educational material"
+    description_ar = "مادة علمية"
+
+# ============================================
+# PROJECTS DATABASE (ONLY DENTAL KEPT)
+# ============================================
+
+[[params.projects]]
+  id = "dental-clinic-1"
+  niche = "dental-clinics"
+  title_en = "Elite Dental Clinic - Riyadh"
+  title_ar = "عيادة النخبة للأسنان - الرياض"
+  description_en = "Modern luxury dental clinic with Swiss implant technology. Increased bookings by 45% in first 3 months."
+  description_ar = "عيادة أسنان فاخرة بتقنية زراعة سويسرية. زيادة الحجوزات 45% في أول 3 أشهر."
+  image = "https://github.com/user-attachments/assets/c7bb7c0e-1e70-42f7-b7a2-dc5d715e3f0d"
+  completion_time = "42 hours"
+  client_location_en = "Riyadh, Saudi Arabia"
+  client_location_ar = "الرياض، المملكة العربية السعودية"
+  
+  [[params.projects.tags]]
+    name_en = "Appointment System"
+    name_ar = "نظام حجز"
+    
+  [[params.projects.tags]]
+    name_en = "Before/After Gallery"
+    name_ar = "معرض قبل/بعد"
+    
+  [[params.projects.features]]
+    title_en = "Online Booking"
+    title_ar = "حجز أونلاين"
+    description_en = "Integrated appointment scheduling with calendar sync"
+    description_ar = "نظام حجز مواعيد مدمج مع مزامنة التقويم"
+    
+  [[params.projects.screenshots]]
+    url = "/assets/projects/dental-1-screenshot-1.jpg"
+    alt_en = "Homepage hero section"
+    alt_ar = "الصفحة الرئيسية"
+
+[[params.projects]]
+  id = "dental-clinic-2"
+  niche = "dental-clinics"
+  title_en = "Bright Smile Clinic - Jeddah"
+  title_ar = "عيادة الابتسامة المشرقة - جدة"
+  description_en = "Family-friendly dental clinic with pediatric specialization. Mobile-optimized booking system."
+  description_ar = "عيادة أسنان عائلية متخصصة في طب أسنان الأطفال. نظام حجز محسّن للموبايل."
+  image = "https://github.com/user-attachments/assets/a2ced92f-7d41-495c-95e9-9acb4ef136fd"
+  completion_time = "38 hours"
+  client_location_en = "Jeddah, Saudi Arabia"
+  client_location_ar = "جدة، المملكة العربية السعودية"
+
+[[params.projects]]
+  id = "dental-clinic-3"
+  niche = "dental-clinics"
+  title_en = "Pearl Dental Center - Dammam"
+  title_ar = "مركز اللؤلؤة للأسنان - الدمام"
+  description_en = "Comprehensive dental care center with orthodontics and cosmetic dentistry focus."
+  description_ar = "مركز رعاية أسنان شامل مع التركيز على تقويم الأسنان وتجميل الأسنان."
+  image = "https://github.com/user-attachments/assets/63b3c3fa-c977-4a40-80d4-315613a214d7"
+  completion_time = "45 hours"
+  client_location_en = "Dammam, Saudi Arabia"
+  client_location_ar = "الدمام، المملكة العربية السعودية"
+
+[[params.projects]]
+  id = "dental-clinic-4"
+  niche = "dental-clinics"
+  title_en = "Royal Dental Care - Khobar"
+  title_ar = "العناية الملكية للأسنان - الخبر"
+  description_en = "Premium dental services with advanced technology and VIP patient experience."
+  description_ar = "خدمات أسنان متميزة بتقنية متقدمة وتجربة مريض VIP."
+  image = "https://github.com/user-attachments/assets/80e7b1c6-97f7-46a7-9b84-f325ad7af597"
+  completion_time = "40 hours"
+  client_location_en = "Khobar, Saudi Arabia"
+  client_location_ar = "الخبر، المملكة العربية السعودية"
+
+[[params.projects]]
+  id = "dental-clinic-5"
+  niche = "dental-clinics"
+  title_en = "Smile Design Studio - Cairo"
+  title_ar = "استوديو تصميم الابتسامة - القاهرة"
+  description_en = "Cosmetic dentistry studio specializing in smile makeovers and veneers."
+  description_ar = "استوديو تجميل أسنان متخصص في تحسين الابتسامة والقشور."
+  image = "https://github.com/user-attachments/assets/85d74a3d-6571-4865-9d67-eacf7a1b4c45"
+  completion_time = "36 hours"
+  client_location_en = "Cairo, Egypt"
+  client_location_ar = "القاهرة، مصر"
+
+[[params.projects]]
+  id = "dental-clinic-6"
+  niche = "dental-clinics"
+  title_en = "Dental Excellence - Alexandria"
+  title_ar = "التميز للأسنان - الإسكندرية"
+  description_en = "Multi-specialty dental clinic with 24/7 emergency services."
+  description_ar = "عيادة أسنان متعددة التخصصات مع خدمات طوارئ 24/7."
+  image = "https://github.com/user-attachments/assets/52137c05-9adf-4f07-b790-08ff404ce4a8"
+  completion_time = "44 hours"
+  client_location_en = "Alexandria, Egypt"
+  client_location_ar = "الإسكندرية، مصر"
+
+[[params.projects]]
+  id = "dental-clinic-7"
+  niche = "dental-clinics"
+  title_en = "Gentle Care Dental - Dubai"
+  title_ar = "العناية اللطيفة للأسنان - دبي"
+  description_en = "Patient-focused clinic with anxiety-free treatment approach."
+  description_ar = "عيادة تركز على المريض مع نهج علاج خالٍ من القلق."
+  image = "https://github.com/user-attachments/assets/a85ab1cf-6a0d-43b9-aa3a-3e4d26348d6f"
+  completion_time = "39 hours"
+  client_location_en = "Dubai, UAE"
+  client_location_ar = "دبي، الإمارات العربية المتحدة"
+
+[[params.projects]]
+  id = "dental-clinic-8"
+  niche = "dental-clinics"
+  title_en = "Advanced Dental Solutions - Abu Dhabi"
+  title_ar = "حلول الأسنان المتقدمة - أبوظبي"
+  description_en = "High-tech dental clinic with digital imaging and CAD/CAM technology."
+  description_ar = "عيادة أسنان عالية التقنية مع التصوير الرقمي وتقنية CAD/CAM."
+  image = "https://github.com/user-attachments/assets/e1e8bd4f-3648-4e4a-8f76-278fd4647680"
+  completion_time = "41 hours"
+  client_location_en = "Abu Dhabi, UAE"
+  client_location_ar = "أبوظبي، الإمارات العربية المتحدة"
+
+[[params.projects]]
+  id = "dental-clinic-9"
+  niche = "dental-clinics"
+  title_en = "Family Dental Practice - Sharjah"
+  title_ar = "عيادة الأسنان العائلية - الشارقة"
+  description_en = "Comprehensive family dental care with preventive focus."
+  description_ar = "رعاية أسنان عائلية شاملة مع التركيز على الوقاية."
+  image = "https://github.com/user-attachments/assets/df8bab5f-7def-4236-bbe1-143f786a9083"
+  completion_time = "37 hours"
+  client_location_en = "Sharjah, UAE"
+  client_location_ar = "الشارقة، الإمارات العربية المتحدة"
+
+[[params.projects]]
+  id = "dental-clinic-10"
+  niche = "dental-clinics"
+  title_en = "Cosmetic Dental Arts - Kuwait"
+  title_ar = "فنون تجميل الأسنان - الكويت"
+  description_en = "Specialized cosmetic dentistry with before/after portfolio showcase."
+  description_ar = "تجميل أسنان متخصص مع عرض محفظة قبل/بعد."
+  image = "https://github.com/user-attachments/assets/1c5957f4-d207-4b7e-b651-5ae1020c3ea9"
+  completion_time = "43 hours"
+  client_location_en = "Kuwait City, Kuwait"
+  client_location_ar = "مدينة الكويت، الكويت"
