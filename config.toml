@@ -117,10 +117,12 @@ enableEmoji = true
 # HOMEPAGE - HERO SECTION
 # ============================================
 [params.home.hero]
-  title_en = "Digital Excellence for Dental Professionals"
-  title_ar = "التميز الرقمي لأطباء الأسنان"
-  subtitle_en = "Specialized websites for Clinics, Labs, Stores, and Personal Portfolios. Ready in 48 Hours."
-  subtitle_ar = "مواقع متخصصة للعيادات، المعامل، المتاجر، والمواقع الشخصية. جاهزة خلال 48 ساعة."
+  title_en = "Built by a Dentist. Designed for Dentists"
+  title_ar = "بناه طبيب أسنان. مُصمّم لأطباء أسنان."
+  subtitle_en = "Professional dental websites, ready in 48 hours—
+crafted with dental precision, delivered at digital speed."
+  subtitle_ar = "موقعك الاحترافي جاهز في 48 ساعة فقط
+بدقة طب الأسنان، وسرعة التقنية الرقمية."
   cta_primary_en = "Start Your Project"
   cta_primary_ar = "ابدأ مشروعك"
   cta_secondary_en = "View portfolio"
