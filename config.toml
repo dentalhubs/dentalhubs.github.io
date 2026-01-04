@@ -196,40 +196,40 @@ enableEmoji = true
   subtitle_en = "We understand the dental business needs"
   subtitle_ar = "نحن نفهم احتياجات العمل في مجال طب الأسنان"
   
-  [[params.home.features.items]]
-    icon = "📅"
-    title_en = "Smart Booking"
-    title_ar = "حجز ذكي"
-    description_en = "Avoid conflicts and manage patient appointments easily"
-    description_ar = "تجنب التعارضات وأدر مواعيد المرضى بسهولة"
-    
-  [[params.home.features.items]]
-    icon = "📸"
-    title_en = "Case Galleries"
-    title_ar = "معرض الحالات"
-    description_en = "Before & After sliders to showcase your work"
-    description_ar = "سلايدر قبل وبعد لعرض نتائجك المبهرة"
-    
-  [[params.home.features.items]]
-    icon = "🌐"
-    title_en = "Multi-Language"
-    title_ar = "متعدد اللغات"
-    description_en = "Full Arabic & English support for diverse patients"
-    description_ar = "دعم كامل للعربية والإنجليزية لخدمة جميع المرضى"
-    
-  [[params.home.features.items]]
-    icon = "🎓"
-    title_en = "Education First"
-    title_ar = "التعليم أولاً"
-    description_en = "Modules for courses and patient education"
-    description_ar = "وحدات خاصة للكورسات وتعليم المرضى"
+ [[params.home.features.items]]
+  icon = "🦷"
+  title_en = "Built by a dentist"
+  title_ar = "مصمم بواسطة طبيب أسنان"
+  description_en = "We understand your terminology, workflow, and patient needs"
+  description_ar = "نفهم مصطلحاتك، سير عملك، واحتياجات مرضاك"
+  
+[[params.home.features.items]]
+  icon = "⚡"
+  title_en = "Ready in 48 hours"
+  title_ar = "جاهز في 48 ساعة"
+  description_en = "No weeks of waiting—your professional site launches fast"
+  description_ar = "بدون أسابيع انتظار—موقعك الاحترافي ينطلق بسرعة"
+  
+[[params.home.features.items]]
+  icon = "💰"
+  title_en = "Fair pricing—save 60%"
+  title_ar = "أسعار عادلة—توفير 60%"
+  description_en = "Transparent costs, no hidden fees, 60% less than agencies"
+  description_ar = "تكاليف شفافة، بدون رسوم مخفية، أقل 60% من الوكالات"
+  
+[[params.home.features.items]]
+  icon = "🔒"
+  title_en = "Fast & secure"
+  title_ar = "سريع وآمن"
+  description_en = "Modern tech: loads in <1 sec, SSL included, mobile-optimized"
+  description_ar = "تقنية حديثة: يُحمّل في <ثانية، SSL مجاني، متوافق مع الجوال"
 
-  [[params.home.features.items]]
-    icon = "🛒"
-    title_en = "E-Commerce Ready"
-    title_ar = "تجارة إلكترونية"
-    description_en = "Sell dental supplies or courses directly"
-    description_ar = "بع مستلزمات الأسنان أو الكورسات مباشرة"
+[[params.home.features.items]]
+  icon = "🤝"
+  title_en = "Ongoing support"
+  title_ar = "دعم مستمر"
+  description_en = "We're with you after launch—3 months free updates & training"
+  description_ar = "معك بعد الإطلاق—3 شهور تحديثات وتدريب مجاني"
 
   [[params.home.features.items]]
     icon = "🔍"
