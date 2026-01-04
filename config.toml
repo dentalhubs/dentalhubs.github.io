@@ -604,15 +604,362 @@ enableEmoji = true
   client_location_en = "Kuwait City, Kuwait"
   client_location_ar = "مدينة الكويت، الكويت"
 
-  #portfolio
-  [[params.projects]]
-  id = "Dr-Michael-Nabil-1"
-  niche = "portfolio"
-  title_en = "Bright Smile Clinic - Jeddah"
-  title_ar = "عيادة الابتسامة المشرقة - جدة"
-  description_en = "Family-friendly dental clinic with pediatric specialization. Mobile-optimized booking system."
-  description_ar = "عيادة أسنان عائلية متخصصة في طب أسنان الأطفال. نظام حجز محسّن للموبايل."
+# ============================================
+# COURSES CATEGORY
+# ============================================
+
+[[params.projects]]
+  id = "course-1"
+  niche = "courses"
+  title_en = "Advanced Implantology Course - Dr. Ahmed"
+  title_ar = "دورة زراعة الأسنان المتقدمة - د. أحمد"
+  description_en = "Professional dental implant training program with hands-on workshops. 200+ dentists enrolled."
+  description_ar = "برنامج تدريبي احترافي لزراعة الأسنان مع ورش عملية. أكثر من 200 طبيب مسجل."
+  image = "https://github.com/user-attachments/assets/c7bb7c0e-1e70-42f7-b7a2-dc5d715e3f0d"
+  completion_time = "35 hours"
+  client_location_en = "Riyadh, Saudi Arabia"
+  client_location_ar = "الرياض، المملكة العربية السعودية"
+  
+  [[params.projects.tags]]
+    name_en = "Video Platform"
+    name_ar = "منصة فيديو"
+    
+  [[params.projects.tags]]
+    name_en = "Student Dashboard"
+    name_ar = "لوحة الطالب"
+
+[[params.projects]]
+  id = "course-2"
+  niche = "courses"
+  title_en = "Orthodontics Masterclass - Dr. Sarah"
+  title_ar = "دورة تقويم الأسنان الاحترافية - د. سارة"
+  description_en = "Comprehensive orthodontics training with certificate program. Interactive learning modules."
+  description_ar = "تدريب شامل لتقويم الأسنان مع برنامج شهادات. وحدات تعليمية تفاعلية."
   image = "https://github.com/user-attachments/assets/a2ced92f-7d41-495c-95e9-9acb4ef136fd"
   completion_time = "38 hours"
+  client_location_en = "Dubai, UAE"
+  client_location_ar = "دبي، الإمارات العربية المتحدة"
+
+[[params.projects]]
+  id = "course-3"
+  niche = "courses"
+  title_en = "Cosmetic Dentistry Academy"
+  title_ar = "أكاديمية تجميل الأسنان"
+  description_en = "Online academy for aesthetic dentistry techniques. Live webinars and case studies."
+  description_ar = "أكاديمية أونلاين لتقنيات تجميل الأسنان. ندوات مباشرة ودراسات حالة."
+  image = "https://github.com/user-attachments/assets/63b3c3fa-c977-4a40-80d4-315613a214d7"
+  completion_time = "40 hours"
+  client_location_en = "Cairo, Egypt"
+  client_location_ar = "القاهرة، مصر"
+
+[[params.projects]]
+  id = "course-4"
+  niche = "courses"
+  title_en = "Digital Dentistry Workshop"
+  title_ar = "ورشة طب الأسنان الرقمي"
+  description_en = "Practical training in CAD/CAM and digital workflows. Hands-on lab sessions."
+  description_ar = "تدريب عملي في CAD/CAM والعمل الرقمي. جلسات معملية تطبيقية."
+  image = "https://github.com/user-attachments/assets/80e7b1c6-97f7-46a7-9b84-f325ad7af597"
+  completion_time = "33 hours"
+  client_location_en = "Amman, Jordan"
+  client_location_ar = "عمان، الأردن"
+
+# ============================================
+# DENTAL LABS CATEGORY
+# ============================================
+
+[[params.projects]]
+  id = "lab-1"
+  niche = "dental-labs"
+  title_en = "Premium Dental Lab - Riyadh"
+  title_ar = "معمل الأسنان المميز - الرياض"
+  description_en = "Full-service dental laboratory specializing in crowns, bridges, and custom prosthetics."
+  description_ar = "معمل أسنان متكامل متخصص في التيجان والجسور والأطقم المخصصة."
+  image = "https://github.com/user-attachments/assets/85d74a3d-6571-4865-9d67-eacf7a1b4c45"
+  completion_time = "36 hours"
+  client_location_en = "Riyadh, Saudi Arabia"
+  client_location_ar = "الرياض، المملكة العربية السعودية"
+  
+  [[params.projects.tags]]
+    name_en = "Order System"
+    name_ar = "نظام طلبات"
+    
+  [[params.projects.tags]]
+    name_en = "Price Calculator"
+    name_ar = "حاسبة الأسعار"
+
+[[params.projects]]
+  id = "lab-2"
+  niche = "dental-labs"
+  title_en = "Digital Dental Lab - Dubai"
+  title_ar = "معمل الأسنان الرقمي - دبي"
+  description_en = "High-tech laboratory with 3D printing and milling technology. Fast turnaround time."
+  description_ar = "معمل عالي التقنية مع طباعة ثلاثية الأبعاد وتقنية الطحن. وقت تسليم سريع."
+  image = "https://github.com/user-attachments/assets/52137c05-9adf-4f07-b790-08ff404ce4a8"
+  completion_time = "41 hours"
+  client_location_en = "Dubai, UAE"
+  client_location_ar = "دبي، الإمارات العربية المتحدة"
+
+[[params.projects]]
+  id = "lab-3"
+  niche = "dental-labs"
+  title_en = "Elite Prosthetics Lab - Cairo"
+  title_ar = "معمل النخبة للتركيبات - القاهرة"
+  description_en = "Specialized in implant-supported prosthetics and zirconia restorations."
+  description_ar = "متخصص في التركيبات المدعومة بالزرعات وترميمات الزيركون."
+  image = "https://github.com/user-attachments/assets/a85ab1cf-6a0d-43b9-aa3a-3e4d26348d6f"
+  completion_time = "39 hours"
+  client_location_en = "Cairo, Egypt"
+  client_location_ar = "القاهرة، مصر"
+
+[[params.projects]]
+  id = "lab-4"
+  niche = "dental-labs"
+  title_en = "Precision Dental Lab - Jeddah"
+  title_ar = "معمل الدقة للأسنان - جدة"
+  description_en = "Certified laboratory with German quality standards. Online order tracking system."
+  description_ar = "معمل معتمد بمعايير جودة ألمانية. نظام تتبع طلبات أونلاين."
+  image = "https://github.com/user-attachments/assets/e1e8bd4f-3648-4e4a-8f76-278fd4647680"
+  completion_time = "37 hours"
+  client_location_en = "Jeddah, Saudi Arabia"
+  client_location_ar = "جدة، المملكة العربية السعودية"
+
+# ============================================
+# DENTAL STORES CATEGORY
+# ============================================
+
+[[params.projects]]
+  id = "store-1"
+  niche = "dental-stores"
+  title_en = "Dental Supplies Pro - Riyadh"
+  title_ar = "مستلزمات الأسنان برو - الرياض"
+  description_en = "Complete dental equipment and supplies e-commerce. 500+ products available."
+  description_ar = "متجر إلكتروني متكامل لمعدات ومستلزمات الأسنان. أكثر من 500 منتج."
+  image = "https://github.com/user-attachments/assets/df8bab5f-7def-4236-bbe1-143f786a9083"
+  completion_time = "48 hours"
+  client_location_en = "Riyadh, Saudi Arabia"
+  client_location_ar = "الرياض، المملكة العربية السعودية"
+  
+  [[params.projects.tags]]
+    name_en = "E-commerce"
+    name_ar = "تجارة إلكترونية"
+    
+  [[params.projects.tags]]
+    name_en = "Bulk Orders"
+    name_ar = "طلبات جملة"
+
+[[params.projects]]
+  id = "store-2"
+  niche = "dental-stores"
+  title_en = "DentalMart UAE"
+  title_ar = "دينتال مارت الإمارات"
+  description_en = "Online marketplace for dental instruments and materials. B2B and B2C platform."
+  description_ar = "سوق إلكتروني لأدوات ومواد الأسنان. منصة للبيع بالجملة والتجزئة."
+  image = "https://github.com/user-attachments/assets/1c5957f4-d207-4b7e-b651-5ae1020c3ea9"
+  completion_time = "52 hours"
+  client_location_en = "Dubai, UAE"
+  client_location_ar = "دبي، الإمارات العربية المتحدة"
+
+[[params.projects]]
+  id = "store-3"
+  niche = "dental-stores"
+  title_en = "Implant Systems Store - Cairo"
+  title_ar = "متجر أنظمة الزراعة - القاهرة"
+  description_en = "Specialized store for dental implants and surgical instruments. Authorized distributor."
+  description_ar = "متجر متخصص في زرعات الأسنان والأدوات الجراحية. موزع معتمد."
+  image = "https://github.com/user-attachments/assets/c7bb7c0e-1e70-42f7-b7a2-dc5d715e3f0d"
+  completion_time = "45 hours"
+  client_location_en = "Cairo, Egypt"
+  client_location_ar = "القاهرة، مصر"
+
+[[params.projects]]
+  id = "store-4"
+  niche = "dental-stores"
+  title_en = "OrthoDental Supplies - Kuwait"
+  title_ar = "مستلزمات تقويم الأسنان - الكويت"
+  description_en = "Orthodontic materials and brackets specialist. Same-day delivery in Kuwait."
+  description_ar = "متخصص في مواد وأقواس تقويم الأسنان. توصيل في نفس اليوم بالكويت."
+  image = "https://github.com/user-attachments/assets/a2ced92f-7d41-495c-95e9-9acb4ef136fd"
+  completion_time = "43 hours"
+  client_location_en = "Kuwait City, Kuwait"
+  client_location_ar = "مدينة الكويت، الكويت"
+
+# ============================================
+# LANDING PAGE CATEGORY
+# ============================================
+
+[[params.projects]]
+  id = "landing-1"
+  niche = "landing-page"
+  title_en = "Teeth Whitening Campaign - Riyadh"
+  title_ar = "حملة تبييض الأسنان - الرياض"
+  description_en = "High-converting landing page for teeth whitening promotion. 38% conversion rate."
+  description_ar = "صفحة هبوط عالية التحويل لترويج تبييض الأسنان. معدل تحويل 38%."
+  image = "https://github.com/user-attachments/assets/63b3c3fa-c977-4a40-80d4-315613a214d7"
+  completion_time = "18 hours"
+  client_location_en = "Riyadh, Saudi Arabia"
+  client_location_ar = "الرياض، المملكة العربية السعودية"
+  
+  [[params.projects.tags]]
+    name_en = "Lead Generation"
+    name_ar = "جذب العملاء"
+    
+  [[params.projects.tags]]
+    name_en = "A/B Testing"
+    name_ar = "اختبار A/B"
+
+[[params.projects]]
+  id = "landing-2"
+  niche = "landing-page"
+  title_en = "Invisalign Promotion - Dubai"
+  title_ar = "حملة إنفزلاين - دبي"
+  description_en = "Campaign landing page for clear aligners with video testimonials and pricing calculator."
+  description_ar = "صفحة حملة للتقويم الشفاف مع شهادات فيديو وحاسبة أسعار."
+  image = "https://github.com/user-attachments/assets/80e7b1c6-97f7-46a7-9b84-f325ad7af597"
+  completion_time = "20 hours"
+  client_location_en = "Dubai, UAE"
+  client_location_ar = "دبي، الإمارات العربية المتحدة"
+
+[[params.projects]]
+  id = "landing-3"
+  niche = "landing-page"
+  title_en = "Dental Implant Special Offer"
+  title_ar = "عرض خاص زراعة الأسنان"
+  description_en = "Limited-time offer landing page with countdown timer and instant booking."
+  description_ar = "صفحة عرض محدود مع عداد تنازلي وحجز فوري."
+  image = "https://github.com/user-attachments/assets/85d74a3d-6571-4865-9d67-eacf7a1b4c45"
+  completion_time = "16 hours"
+  client_location_en = "Jeddah, Saudi Arabia"
+  client_location_ar = "جدة، المملكة العربية السعودية"
+
+[[params.projects]]
+  id = "landing-4"
+  niche = "landing-page"
+  title_en = "Hollywood Smile Package"
+  title_ar = "باقة هوليود سمايل"
+  description_en = "Premium cosmetic dentistry package landing page with before/after slider."
+  description_ar = "صفحة باقة تجميل أسنان مميزة مع عارض قبل/بعد."
+  image = "https://github.com/user-attachments/assets/52137c05-9adf-4f07-b790-08ff404ce4a8"
+  completion_time = "19 hours"
+  client_location_en = "Cairo, Egypt"
+  client_location_ar = "القاهرة، مصر"
+
+# ============================================
+# PORTFOLIO CATEGORY
+# ============================================
+
+[[params.projects]]
+  id = "portfolio-1"
+  niche = "portfolio"
+  title_en = "Dr. Mohammed Al-Rashid Portfolio"
+  title_ar = "معرض أعمال د. محمد الراشد"
+  description_en = "Professional portfolio for cosmetic dentist showcasing smile transformations."
+  description_ar = "معرض أعمال احترافي لطبيب تجميل يعرض تحولات الابتسامة."
+  image = "https://github.com/user-attachments/assets/a85ab1cf-6a0d-43b9-aa3a-3e4d26348d6f"
+  completion_time = "28 hours"
+  client_location_en = "Riyadh, Saudi Arabia"
+  client_location_ar = "الرياض، المملكة العربية السعودية"
+  
+  [[params.projects.tags]]
+    name_en = "Case Gallery"
+    name_ar = "معرض الحالات"
+    
+  [[params.projects.tags]]
+    name_en = "Patient Reviews"
+    name_ar = "آراء المرضى"
+
+[[params.projects]]
+  id = "portfolio-2"
+  niche = "portfolio"
+  title_en = "Dr. Laila Hassan Orthodontics"
+  title_ar = "د. ليلى حسن لتقويم الأسنان"
+  description_en = "Orthodontist portfolio featuring treatment cases and educational content."
+  description_ar = "معرض أعمال أخصائية تقويم يعرض حالات علاجية ومحتوى تعليمي."
+  image = "https://github.com/user-attachments/assets/e1e8bd4f-3648-4e4a-8f76-278fd4647680"
+  completion_time = "30 hours"
+  client_location_en = "Dubai, UAE"
+  client_location_ar = "دبي، الإمارات العربية المتحدة"
+
+[[params.projects]]
+  id = "portfolio-3"
+  niche = "portfolio"
+  title_en = "Dr. Khaled Implant Specialist"
+  title_ar = "د. خالد أخصائي زراعة"
+  description_en = "Implantology specialist portfolio with 3D case presentations and success stories."
+  description_ar = "معرض أخصائي زراعة مع عروض حالات ثلاثية الأبعاد وقصص نجاح."
+  image = "https://github.com/user-attachments/assets/df8bab5f-7def-4236-bbe1-143f786a9083"
+  completion_time = "32 hours"
+  client_location_en = "Cairo, Egypt"
+  client_location_ar = "القاهرة، مصر"
+
+[[params.projects]]
+  id = "portfolio-4"
+  niche = "portfolio"
+  title_en = "Dr. Fatima Pediatric Dentistry"
+  title_ar = "د. فاطمة طب أسنان الأطفال"
+  description_en = "Pediatric dentist portfolio with child-friendly design and parent testimonials."
+  description_ar = "معرض طبيبة أسنان أطفال بتصميم صديق للأطفال وشهادات الآباء."
+  image = "https://github.com/user-attachments/assets/1c5957f4-d207-4b7e-b651-5ae1020c3ea9"
+  completion_time = "26 hours"
+  client_location_en = "Amman, Jordan"
+  client_location_ar = "عمان، الأردن"
+
+# ============================================
+# SPECIALTY CATEGORY
+# ============================================
+
+[[params.projects]]
+  id = "specialty-1"
+  niche = "specialty"
+  title_en = "Endodontic Center - Riyadh"
+  title_ar = "مركز علاج الجذور - الرياض"
+  description_en = "Specialized root canal treatment center with microscope technology."
+  description_ar = "مركز متخصص في علاج الجذور بتقنية المجهر."
+  image = "https://github.com/user-attachments/assets/c7bb7c0e-1e70-42f7-b7a2-dc5d715e3f0d"
+  completion_time = "34 hours"
+  client_location_en = "Riyadh, Saudi Arabia"
+  client_location_ar = "الرياض، المملكة العربية السعودية"
+  
+  [[params.projects.tags]]
+    name_en = "Microscope Treatment"
+    name_ar = "علاج بالمجهر"
+    
+  [[params.projects.tags]]
+    name_en = "Emergency Care"
+    name_ar = "رعاية طوارئ"
+
+[[params.projects]]
+  id = "specialty-2"
+  niche = "specialty"
+  title_en = "Periodontal Institute - Dubai"
+  title_ar = "معهد أمراض اللثة - دبي"
+  description_en = "Gum disease treatment and dental implant placement specialist center."
+  description_ar = "مركز متخصص في علاج أمراض اللثة وزراعة الأسنان."
+  image = "https://github.com/user-attachments/assets/a2ced92f-7d41-495c-95e9-9acb4ef136fd"
+  completion_time = "36 hours"
+  client_location_en = "Dubai, UAE"
+  client_location_ar = "دبي، الإمارات العربية المتحدة"
+
+[[params.projects]]
+  id = "specialty-3"
+  niche = "specialty"
+  title_en = "Oral Surgery Clinic - Cairo"
+  title_ar = "عيادة جراحة الفم - القاهرة"
+  description_en = "Maxillofacial surgery and complex dental extractions specialist."
+  description_ar = "متخصص في جراحة الفكين والخلع المعقد للأسنان."
+  image = "https://github.com/user-attachments/assets/63b3c3fa-c977-4a40-80d4-315613a214d7"
+  completion_time = "38 hours"
+  client_location_en = "Cairo, Egypt"
+  client_location_ar = "القاهرة، مصر"
+
+[[params.projects]]
+  id = "specialty-4"
+  niche = "specialty"
+  title_en = "TMJ Disorders Center - Jeddah"
+  title_ar = "مركز اضطرابات المفصل الفكي - جدة"
+  description_en = "Temporomandibular joint disorder treatment and jaw pain management."
+  description_ar = "علاج اضطرابات المفصل الفكي الصدغي وإدارة آلام الفك."
+  image = "https://github.com/user-attachments/assets/80e7b1c6-97f7-46a7-9b84-f325ad7af597"
+  completion_time = "35 hours"
   client_location_en = "Jeddah, Saudi Arabia"
   client_location_ar = "جدة، المملكة العربية السعودية"
