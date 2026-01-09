@@ -293,18 +293,7 @@ enableEmoji = true
   seo_keywords_ar = "عيادة أسنان, موقع طبيب, حجز مواعيد"
 
 [[params.niches.features]]
-  title_en = """
-🦷 Built by a Dentist
-أنا طبيب أسنان ممارس—أفهم مصطلحاتك.
-  
-⚡ 48-Hour Delivery
-عيادتك online في يومين فقط.
-  
-💰 Save 60%
-أسعار عادلة وشفافة.
-  
-📈 Real Results
-50+ عيادة وثقت فينا.
+  title_en = "🦷 Built by a Dentist (أنا طبيب أفهم مصطلحاتك)  •  ⚡ 48-Hour Delivery (أونلاين في يومين)  •  💰 Save 60% (أوفر من الوكالات)  •  📈 Real Results (زيادة الحجوزات)"
 """  description_en = """
 🦷 Built by a Dentist
 أنا طبيب أسنان ممارس—أفهم مصطلحاتك واحتياجاتك. لن تحتاج لشرح “الفرق بين Crown و Veneer”.
