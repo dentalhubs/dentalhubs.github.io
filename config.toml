@@ -139,7 +139,7 @@ enableEmoji = true
   title_en = "Fast & Secure"
   title_ar = "سريع وآمن"
   desc_en = "SSL included, loads in <1 sec"
-  desc_ar = "SSL مجاني، يُحمّل في <ثانية"
+  desc_ar = "SSL مجاني، يُحمّل في اقل من ثانية"
   
 [[params.home.hero.features]]
   icon = "🦷"
