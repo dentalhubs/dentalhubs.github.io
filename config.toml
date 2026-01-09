@@ -355,9 +355,9 @@ enableEmoji = true
   seo_keywords_ar = "معمل أسنان, طلبات تركيبات, ديجيتال لاب"
 
   [[params.niches.features]]
-    title_en = "Order Forms"
+    title_en = "Doctors easily find you and know about your skills"
     title_ar = "نماذج الطلب"
-    icon = "📝"
+    icon = "🔍"
     description_en = "Easy prescription upload"
     description_ar = "رفع مقاسات سهل"
 
