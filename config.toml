@@ -127,33 +127,33 @@ enableEmoji = true
   cta_secondary_ar = "شاهد النماذج"
   image = "/assets/hero-image.jpg"
 
-  [[params.home.hero.features]]
-    icon = "⚡"
-    title_en = "48-Hour Delivery"
-    title_ar = "تسليم خلال 48 ساعة"
-    desc_en = "Your dental site ready fast"
-    desc_ar = "موقعك الطبي جاهز بسرعة"
-    
-  [[params.home.hero.features]]
-    icon = "🔒"
-    title_en = "HIPAA/GDPR Ready"
-    title_ar = "أمان وخصوصية"
-    desc_en = "Secure patient data"
-    desc_ar = "حماية بيانات المرضى"
-    
-  [[params.home.hero.features]]
-    icon = "🦷"
-    title_en = "Dental Specialized"
-    title_ar = "تخصص دقيق"
-    desc_en = "Features made for dentists"
-    desc_ar = "مزايا صممت للأطباء"
-    
-  [[params.home.hero.features]]
-    icon = "📱"
-    title_en = "Mobile Booking"
-    title_ar = "حجز من الموبايل"
-    desc_en = "Seamless patient experience"
-    desc_ar = "تجربة مريض سلسة"
+[[params.home.hero.features]]
+  icon = "⚡"
+  title_en = "48-Hour Delivery"
+  title_ar = "تسليم خلال 48 ساعة"
+  desc_en = "Your dental site ready fast"
+  desc_ar = "موقعك الطبي جاهز بسرعة"
+  
+[[params.home.hero.features]]
+  icon = "🔒"
+  title_en = "Fast & Secure"
+  title_ar = "سريع وآمن"
+  desc_en = "SSL included, loads in <1 sec"
+  desc_ar = "SSL مجاني، يُحمّل في <ثانية"
+  
+[[params.home.hero.features]]
+  icon = "🦷"
+  title_en = "Dental Specialized"
+  title_ar = "تخصص في طب الأسنان"
+  desc_en = "Features made for dentists"
+  desc_ar = "مزايا صُممت لأطباء الأسنان"
+  
+[[params.home.hero.features]]
+  icon = "💰"
+  title_en = "Save 60%"
+  title_ar = "توفير 60%"
+  desc_en = "Fair pricing, no hidden fees"
+  desc_ar = "أسعار عادلة، بدون رسوم مخفية"
 
 # ============================================
 # STATISTICS SECTION
