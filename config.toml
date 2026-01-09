@@ -293,24 +293,20 @@ enableEmoji = true
   seo_keywords_ar = "عيادة أسنان, موقع طبيب, حجز مواعيد"
 
 [[params.niches.features]]
-  title_en = "🦷 Built by a Dentist"
-  description_en = "أنا طبيب أسنان ممارس—أفهم مصطلحاتك واحتياجاتك. لن تحتاج لشرح “الفرق بين Crown و Veneer”."
+  title_en = "Why Choose DentalHubs?"
+  description_en = """
+🦷 Built by a Dentist
+أنا طبيب أسنان ممارس—أفهم مصطلحاتك واحتياجاتك. لن تحتاج لشرح “الفرق بين Crown و Veneer”.
 
-[[params.niches.features]]
-  title_en = "⚡ 48-Hour Delivery"
-  description_en = "عيادتك online في يومين فقط—بينما الوكالات تأخذ شهرين. كل يوم تأخير = مرضى يذهبون للمنافس."
+⚡ 48-Hour Delivery
+عيادتك online في يومين فقط—بينما الوكالات تأخذ شهرين. كل يوم تأخير = مرضى يذهبون للمنافس.
 
-[[params.niches.features]]
-  title_en = "💰 Save 60%"
-  description_en = "أسعار عادلة وشفافة. نوفر لك 60% مقارنة بالوكالات التقليدية. استضافة مجانية مدى الحياة."
+💰 Save 60%
+أسعار عادلة وشفافة. نوفر لك 60% مقارنة بالوكالات التقليدية. استضافة مجانية مدى الحياة.
 
-[[params.niches.features]]
-  title_en = "📈 Real Results"
-  description_en = "50+ عيادة في مصر والخليج وثقت فينا. متوسط زيادة الاستفسارات: 35-40% في أول 3 شهور."
-    title_ar = "حجز أونلاين"
-    icon = "📅"
-    description_en = "Real-time appointments"
-    description_ar = "مواعيد فورية"
+📈 Real Results
+50+ عيادة في مصر والخليج وثقت فينا. متوسط زيادة الاستفسارات: 35-40% في أول 3 شهور.
+"""
 
 # 2. Portfolio
 [[params.niches]]
