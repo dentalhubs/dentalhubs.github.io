@@ -23,6 +23,19 @@
   {{ end }}
   {{ $canonicalURL := .Permalink }}
   {{ $ogImage := .Site.Params.seo.og_image | absURL }}
+  {{ $ogImageAlt := $seoTitle }}
+  {{ $ogImageWidth := 1200 }}
+  {{ if .Site.Params.seo.og_image_width }}
+    {{ $ogImageWidth = .Site.Params.seo.og_image_width }}
+  {{ end }}
+  {{ $ogImageHeight := 630 }}
+  {{ if .Site.Params.seo.og_image_height }}
+    {{ $ogImageHeight = .Site.Params.seo.og_image_height }}
+  {{ end }}
+  {{ $ogLocale := "en_US" }}
+  {{ if eq .Site.Language.Lang "ar" }}
+    {{ $ogLocale = "ar_AR" }}
+  {{ end }}
   
   <title>{{ $seoTitle }}</title>
   <meta name="description" content="{{ $seoDescription }}">
@@ -42,16 +55,27 @@
   <meta property="og:title" content="{{ $seoTitle }}">
   <meta property="og:description" content="{{ $seoDescription }}">
   <meta property="og:image" content="{{ $ogImage }}">
+  <meta property="og:image:secure_url" content="{{ $ogImage }}">
+  <meta property="og:image:width" content="{{ $ogImageWidth }}">
+  <meta property="og:image:height" content="{{ $ogImageHeight }}">
+  <meta property="og:image:alt" content="{{ $ogImageAlt }}">
   <meta property="og:url" content="{{ $canonicalURL }}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ .Site.Title }}">
-  <meta property="og:locale" content="{{ if eq .Site.Language.Lang "ar" }}ar_AR{{ else }}en_US{{ end }}">
+  <meta property="og:locale" content="{{ $ogLocale }}">
+  {{ range .Site.Home.AllTranslations }}
+  {{ if ne .Lang $.Site.Language.Lang }}
+  <meta property="og:locale:alternate" content="{{ if eq .Lang "ar" }}ar_AR{{ else }}en_US{{ end }}">
+  {{ end }}
+  {{ end }}
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ $seoTitle }}">
   <meta name="twitter:description" content="{{ $seoDescription }}">
   <meta name="twitter:image" content="{{ $ogImage }}">
+  <meta name="twitter:image:alt" content="{{ $ogImageAlt }}">
+  <meta name="twitter:url" content="{{ $canonicalURL }}">
   {{ if .Site.Params.seo.twitter_handle }}<meta name="twitter:site" content="{{ .Site.Params.seo.twitter_handle }}">{{ end }}
   {{ if .Site.Params.seo.twitter_handle }}<meta name="twitter:creator" content="{{ .Site.Params.seo.twitter_handle }}">{{ end }}
   
@@ -68,10 +92,19 @@
   {{ else if .Site.Params.seo.favicon }}
     {{ $logoURL = .Site.Params.seo.favicon }}
   {{ end }}
-  {{ $organization := dict "@context" "https://schema.org" "@type" "Organization" "name" .Site.Title "alternateName" (default (slice) .Site.Params.seo.brand_alternate_names) "url" .Site.BaseURL "logo" $logoURL "sameAs" (slice .Site.Params.social.linkedin .Site.Params.social.github .Site.Params.social.twitter) }}
-  {{ $website := dict "@context" "https://schema.org" "@type" "WebSite" "name" .Site.Title "alternateName" (default (slice) .Site.Params.seo.brand_alternate_names) "url" .Site.BaseURL "inLanguage" .Site.Language.Lang }}
+  {{ $sameAs := slice }}
+  {{ with .Site.Params.social.linkedin }}{{ $sameAs = $sameAs | append . }}{{ end }}
+  {{ with .Site.Params.social.github }}{{ $sameAs = $sameAs | append . }}{{ end }}
+  {{ with .Site.Params.social.twitter }}{{ $sameAs = $sameAs | append . }}{{ end }}
+  {{ $organizationID := printf "%s#organization" .Site.BaseURL }}
+  {{ $websiteID := printf "%s#website" .Site.BaseURL }}
+  {{ $webpageID := printf "%s#webpage" $canonicalURL }}
+  {{ $organization := dict "@context" "https://schema.org" "@type" "Organization" "@id" $organizationID "name" .Site.Title "alternateName" (default (slice) .Site.Params.seo.brand_alternate_names) "url" .Site.BaseURL "logo" $logoURL "sameAs" $sameAs }}
+  {{ $website := dict "@context" "https://schema.org" "@type" "WebSite" "@id" $websiteID "name" .Site.Title "alternateName" (default (slice) .Site.Params.seo.brand_alternate_names) "url" .Site.BaseURL "inLanguage" .Site.Language.Lang "publisher" (dict "@id" $organizationID) }}
+  {{ $webpage := dict "@context" "https://schema.org" "@type" "WebPage" "@id" $webpageID "name" $seoTitle "description" $seoDescription "url" $canonicalURL "isPartOf" (dict "@id" $websiteID) "about" (dict "@id" $organizationID) "inLanguage" .Site.Language.Lang }}
   <script type="application/ld+json">{{ $organization | jsonify | safeHTML }}</script>
   <script type="application/ld+json">{{ $website | jsonify | safeHTML }}</script>
+  <script type="application/ld+json">{{ $webpage | jsonify | safeHTML }}</script>
   
   <!-- Favicon -->
   {{ if .Site.Params.seo.favicon }}
